@@ -1,7 +1,7 @@
 <?php
 echo 'Day 4<br /><br />';
 
-$input_txt = file_get_contents('Day_4_input.txt');
+$input_txt = file_get_contents('high-entropy-passphrases_input.txt');
 $passphrases = explode("\n", $input_txt);
 
 $correct_phrases = 0;
@@ -26,13 +26,13 @@ foreach($passphrases as $pk => &$phrase) {
     }
 }
 
-echo 'RES: '.$correct_phrases;
+echo '<b>Result:</b> '.$correct_phrases;
 
 echo '<hr /><br />';
 
 echo 'Day 4.5<br /><br />';
 
-$input_txt = file_get_contents('Day_4_input.txt');
+$input_txt = file_get_contents('high-entropy-passphrases_input.txt');
 $passphrases = explode("\n", $input_txt);
 
 $correct_phrases = 0;
@@ -60,5 +60,5 @@ foreach($passphrases as $pk => &$phrase) {
     }
 }
 
-echo 'RES: '.$correct_phrases;
+echo '<b>Result:</b> '.$correct_phrases;
 ?>

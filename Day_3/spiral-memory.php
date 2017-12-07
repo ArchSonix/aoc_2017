@@ -172,7 +172,7 @@ $spiral_grid = Spiral($input_pos);
 DebugGrid($spiral_grid);
 
 echo '<br/>';
-echo 'RES: '.calcTaxiCabDist($spiral_grid, 1, $input_pos);
+echo '<b>Result:</b> '.calcTaxiCabDist($spiral_grid, 1, $input_pos);
 
 echo '<br /><hr />';
 

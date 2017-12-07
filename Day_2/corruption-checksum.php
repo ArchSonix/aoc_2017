@@ -28,7 +28,7 @@ $checksum = 0;
 foreach($inputs as $input_row) {
 	$checksum += max(explode(' ', $input_row)) - min(explode(' ', $input_row));
 }
-echo 'RES: '.$checksum;
+echo '<b>Result:</b> '.$checksum;
 
 echo '<br /><hr />';
 
@@ -72,5 +72,5 @@ foreach($inputs as $input_row) {
 	}
 }
 echo '<br/>';
-echo 'RES: '.$checksum;
+echo '<b>Result:</b> '.$checksum;
 ?>

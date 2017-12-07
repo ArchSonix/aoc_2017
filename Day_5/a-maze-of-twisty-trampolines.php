@@ -1,7 +1,7 @@
 <?php
 echo 'Day 5<br /><br />';
 
-$input_txt = file_get_contents('Day_5_input.txt');
+$input_txt = file_get_contents('a-maze-of-twisty-trampolines_input.txt');
 $offsets = explode("\n", trim($input_txt));
 
 $steps = 0;
@@ -17,13 +17,13 @@ while($pointer >= 0) {
         $steps++;
     }
 }
-echo 'RES: '.$steps;
+echo '<b>Result:</b> '.$steps;
 
 echo '<hr /><br />';
 
 echo 'Day 5.5<br /><br />';
 
-$input_txt = file_get_contents('Day_5_input.txt');
+$input_txt = file_get_contents('a-maze-of-twisty-trampolines_input.txt');
 $offsets = explode("\n", trim($input_txt));
 
 $steps = 0;
@@ -44,5 +44,5 @@ while($pointer >= 0) {
         $steps++;
     }
 }
-echo 'RES: '.$steps;
+echo '<b>Result:</b> '.$steps;
 ?>

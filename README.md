@@ -4,3 +4,4 @@ Advent of Code is a series of small programming puzzles for a variety of skill l
 
 ## Visit
 - http://adventofcode.com
+- @mariotacke (Big thanks for the README.md files ::smile: )
